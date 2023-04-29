@@ -12,9 +12,9 @@ You can watch content using:
 - Styled scss preprocessor;
 - BEM methodology was used for layout;
 
-## Screenshots
-<table align="center" width="100" align="center">
-    <img src="./img/recordscreen.gif" width="352" height="669" alt="css3"/>
+## ScreenRecord
+<table width="100" align="center">
+    <td align="center">
+        <img src="./img/recordscreen.gif" width="352" height="669" alt="css3"/>
+    </td>
 </table>
-<img align="center" src="./img/recordscreen.gif" width="352" height="669" alt="css3"/>
-
