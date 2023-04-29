@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="module" src="./js/script.js"></script>
+    <title>story slider</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section class="main-page">
+                <h1>To see the stories, the browser window must be <= 1024px.</h1>
+                <div class="slides-mobile">
+                    <div data-item="tasks" class="slides-mobile__block slides-mobile__block--tasks">
+                        <div class="slides-mobile__image"></div>
+                        <p class="slides-mobile__title">Находить задания и исполнителей</p>
+                        <div class="slides-mobile__slides">
+                            <div class="slides-mobile__slides-block slides-mobile__slides-block--plug">
+                                <img src="./img/plug-tasks.png" class="slides-mobile__slides-image"></img>
+                                <h2>Сервис для заказчиков и исполнителей</h2>
+                                <p>Сервис находится в стадии разработки</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-item="work" class="slides-mobile__block slides-mobile__block--work">
+                        <div class="slides-mobile__image"></div>
+                        <p class="slides-mobile__title">Искать работу и сотрудников</p>
+
+
+
+                        <div class="slides-mobile__slides">
+                            <div class="slides-mobile__slides-block slides-mobile__slides-block--main">
+                                <img src="./img/main-applicant.png" class="slides-mobile__slides-image"></img>
+                                <h2>Как найти работу?</h2>
+                            </div>
+
+                            <div class="slides-mobile__slides-block">
+                                <img src="./img/applicant-documents.png" class="slides-mobile__slides-image"></img>
+                                <h2>Разместите резюме</h2>
+                                <p>Создайте резюме в роли «Я соискатель». Также вы можете загрузить 
+                                    видеоролик о себе как о специалисте, чтобы осветить все 
+                                    интересующие работодателя моменты
+                                </p>
+                                <a href="#">Разместите резюме</a>
+                            </div>
+
+                            <div class="slides-mobile__slides-block">
+                                <img src="./img/applicant-man.png" class="slides-mobile__slides-image"></img>
+                                <h2>Откликайтесь</h2>
+                                <p>Активно ищите интересные вакансии и откликайтесь на них. 
+                                    Далее ожидайте приглашения на собеседование
+                                </p>
+                                <a href="#">Смотреть вакансии</a>
+                            </div>
+
+                            <div class="slides-mobile__slides-block">
+                                <img src="./img/applicant-storage.png" class="slides-mobile__slides-image"></img>
+                                <h2>Общение с работодателем</h2>
+                                <p>Работодатель может провести собеседование онлайн, используя 
+                                    наш сервис «Видеособеседование»
+                                </p>
+                                <a href="#">Узнать больше</a>
+                            </div>
+
+                            <div class="slides-mobile__slides-block slides-mobile__slides-block--main">
+                                <img src="./img/main-employer.png" class="slides-mobile__slides-image"></img>
+                                <h2>Как найти сотрудника?</h2>
+                            </div>
+
+                            <div class="slides-mobile__slides-block">
+                                <img src="./img/employer-chair.png" class="slides-mobile__slides-image"></img>
+                                <h2>Разместите вакансию</h2>
+                                <p>В разделе «Я работодатель» создайте вакансию или загрузите готовую 
+                                    с сайта hh.ru. Для более эффективного поиска кандидатов вы можете 
+                                    выложить видео о вакансии
+                                </p>
+                                <a href="#">Создать вакансию</a>
+                            </div>
+
+                            <div class="slides-mobile__slides-block">
+                                <img src="./img/employer-documents.png" class="slides-mobile__slides-image"></img>
+                                <h2>Поиск сотрудника</h2>
+                                <p>Отберите поступившие резюме и пригласите на собеседование 
+                                    заинтересовавших Вас кандидатов или самостоятельно выбирайте 
+                                    кандидатов из нашей базы
+                                </p>
+                                <a href="#">Смотреть резюме</a>
+                            </div>
+
+                            <div class="slides-mobile__slides-block">
+                                <img src="./img/employer-phone.png" class="slides-mobile__slides-image"></img>
+                                <h2>Общение с соискателем</h2>
+                                <p>Проводить собеседование Вы можете онлайн через наш сервис, 
+                                    используя услугу «Видеособеседование»
+                                </p>
+                                <a href="#">Узнать больше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-item="announces" class="slides-mobile__block slides-mobile__block--announces">
+                        <div class="slides-mobile__image"></div>
+                        <p class="slides-mobile__title">Продавать и покупать товары</p>
+                        <div class="slides-mobile__slides">
+                            
+                            <div class="slides-mobile__slides-block slides-mobile__slides-block--plug">
+                                <img src="./img/plug-announces.png" class="slides-mobile__slides-image"></img>
+                                <h2>Сервис для продавцов и покупателей</h2>
+                                <p>Сервис находится в стадии разработки</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="story-slider">
+                    <button class="story-slider__cross"></button>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <div class="dropdown-popup-overlay"></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.main-page {
+    padding-top: 60px;
+    @media (max-width: 700px) {
+        padding-top: 20px;
+    }
+    h1 {
+        transition: .3s;
+        background-color: var(--blue-500);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+}
