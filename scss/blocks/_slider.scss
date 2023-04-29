@@ -299,7 +299,7 @@
             width: 0%;
             background-color: var(--white);
             &.start-animation {
-                animation: animationSlide 10s linear;
+                animation: animationSlide 3s linear;
                 animation-fill-mode: forwards;
             }
             &.end-animation {
