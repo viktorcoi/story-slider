@@ -1,6 +1,6 @@
 const checkSlide = $('.slides-mobile__block');
 const slider = document.querySelector('.story-slider');
-const timerSlide = 3000;
+const timerSlide = 10000;
 
 const closeSlider = (interval) => {
     setTimeout(() => {
