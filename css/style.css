@@ -393,7 +393,7 @@
   background-color: var(--white);
 }
 .story-slider__list-block > div.start-animation {
-  animation: animationSlide 3s linear;
+  animation: animationSlide 10s linear;
   animation-fill-mode: forwards;
 }
 .story-slider__list-block > div.end-animation {
