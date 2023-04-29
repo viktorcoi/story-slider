@@ -13,8 +13,6 @@ You can watch content using:
 - BEM methodology was used for layout;
 
 ## Screenshots
-<table width="100" align="center">
-    <td align="center">
+
         <img src="./img/recordscreen.gif" width="352" height="669" alt="css3"/>
-    </td>
-</table>
+
