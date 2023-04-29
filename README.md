@@ -14,9 +14,7 @@ You can watch content using:
 
 ## Screenshots
 <table width="100" align="center">
- 
-        <img src="./img/recordscreen.gif" width="352" height="669" alt="css3"/>
- 
+    <img src="./img/recordscreen.gif" width="352" height="669" alt="css3"/>
 </table>
 <img align="center" src="./img/recordscreen.gif" width="352" height="669" alt="css3"/>
 
