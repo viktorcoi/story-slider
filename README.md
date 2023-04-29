@@ -4,6 +4,7 @@ With this plugin, you can view stories like in instagram.
 You can watch content using:
 1) By touch on the right/left area of the screen to switch the next/previous history;
 2) Swipe right/left to switch the next/previous story topic.
+
 <a href="https://viktorcoi.github.io/story-slider/">Click here to view the git page online</a>
 - Adaptive layout up to 320px;
 - Cross-browser layout;
